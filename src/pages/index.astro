@@ -1,0 +1,398 @@
+---
+const nav = [
+  { label: "Start Here", href: "/start-here" },
+  { label: "Faith", href: "/faith" },
+  { label: "History", href: "/history" },
+  { label: "Society", href: "/society" },
+  { label: "World", href: "/world" },
+  { label: "People", href: "/people" },
+  { label: "Archive", href: "/archive" },
+  { label: "Books", href: "/books" },
+];
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Ateshism — The world of The Ashen Flame</title>
+		<meta name="description" content="Ateshism.com is the archive of a fictional faith and empire — theology, history, and society built for the novel The Ashen Flame by Alexei Sassani." />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="ember-rule" aria-hidden="true"></div>
+
+		<header>
+			<div class="wrap header-inner">
+				<a class="wordmark" href="/">Ateshism<span class="dot">.com</span></a>
+				<nav>
+					{nav.map((item) => (
+						<a href={item.href}>{item.label}</a>
+					))}
+				</nav>
+				<a class="buy" href="/the-ashen-flame">The Ashen Flame</a>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero wrap">
+				<p class="kicker">A civilisation built for one novel — and the ones after it</p>
+				<h1>
+					Somewhere, a fire has been<br />
+					burning for twelve centuries.
+				</h1>
+				<p class="lede">
+					Ateshism.com is the archive of Din e Atezhan — the faith, empire, and people
+					of the Ateshi world — built to stand beside <em>The Ashen Flame</em>,
+					a novel by Alexei Sassani. Fictional, and documented like it isn't.
+				</p>
+				<div class="hero-links">
+					<a class="cta-primary" href="/the-ashen-flame">Read about the novel</a>
+					<a class="cta-secondary" href="/start-here">Enter the world</a>
+				</div>
+			</section>
+
+			<section class="wrap divider"><hr /></section>
+
+			<section class="wrap intro-grid">
+				<div class="intro-block">
+					<h2>What is Ateshism?</h2>
+					<p>
+						Not a god who judges from a distance, but the Eternal Flame — the ongoing
+						activity of existence itself, present everywhere, legible unevenly.
+						A faith with two scriptures three centuries apart, and a question about
+						the second one it has never fully answered.
+					</p>
+					<a class="text-link" href="/faith/what-is-ateshism">What is Ateshism?</a>
+				</div>
+				<div class="intro-block">
+					<h2>Rose Mothers and the Ash Order</h2>
+					<p>
+						Provincial clergy who marry and bury and teach, and an independent order
+						that investigates them — disciplinary authority built to check power,
+						not just bless it.
+					</p>
+					<a class="text-link" href="/institutions/the-ash-order">The Ash Order</a>
+				</div>
+				<div class="intro-block">
+					<h2>The world in 1991</h2>
+					<p>
+						From Persia to Sogdiana to the Baltics — a defense-in-depth empire,
+						not an expeditionary one, and the modern Compact it became.
+					</p>
+					<a class="text-link" href="/world">Map of the Ateshi world</a>
+				</div>
+			</section>
+
+			<section class="wrap divider"><hr /></section>
+
+			<section class="wrap book-panel">
+				<div class="book-copy">
+					<p class="kicker">The novel</p>
+					<h2>The Ashen Flame</h2>
+					<p>
+						An Ash Mother named Farah Kianzad opens an investigation that was never
+						supposed to go where it goes. Everything on this site exists because the
+						book needed a world large enough to hold it.
+					</p>
+					<a class="cta-primary" href="/the-ashen-flame">Buy the novel</a>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="wrap footer-inner">
+				<span>Alexei Sassani</span>
+				<span class="sep">·</span>
+				<a href="/about">About the project</a>
+				<span class="sep">·</span>
+				<a href="/contact">Contact</a>
+				<span class="sep">·</span>
+				<a href="/fiction-notice">Fiction notice</a>
+				<span class="sep">·</span>
+				<a href="/privacy">Privacy policy</a>
+			</div>
+			<div class="wrap fiction-notice">
+				Ateshism, Din e Atezhan, and the Ateshi world are fictional, created for the
+				novel <em>The Ashen Flame</em>. They are not a real religion, place, or history.
+			</div>
+		</footer>
+
+		<style>
+			:root {
+				--ash-950: #171310;
+				--ash-900: #221b16;
+				--ash-800: #332821;
+				--ash-700: #4a3a30;
+				--parchment: #ece2d0;
+				--parchment-dim: #c9bda8;
+				--ember: #b8481f;
+				--ember-bright: #d9642f;
+				--gold-line: rgba(201, 189, 168, 0.18);
+			}
+
+			* { box-sizing: border-box; }
+
+			html {
+				background: var(--ash-950);
+			}
+
+			body {
+				margin: 0;
+				background: var(--ash-950);
+				background-image: radial-gradient(ellipse 900px 500px at 15% -10%, rgba(184, 72, 31, 0.14), transparent 60%);
+				color: var(--parchment);
+				font-family: "IBM Plex Sans", system-ui, sans-serif;
+				font-size: 17px;
+				line-height: 1.6;
+				-webkit-font-smoothing: antialiased;
+			}
+
+			h1, h2, .wordmark {
+				font-family: "Fraunces", Georgia, serif;
+				font-weight: 500;
+				letter-spacing: -0.01em;
+			}
+
+			.wrap {
+				max-width: 980px;
+				margin: 0 auto;
+				padding: 0 28px;
+			}
+
+			.ember-rule {
+				height: 3px;
+				background: linear-gradient(90deg, var(--ember) 0%, var(--ember-bright) 40%, transparent 100%);
+			}
+
+			header {
+				padding: 22px 0;
+				border-bottom: 1px solid var(--gold-line);
+			}
+
+			.header-inner {
+				display: flex;
+				align-items: center;
+				gap: 32px;
+			}
+
+			.wordmark {
+				font-size: 1.15rem;
+				color: var(--parchment);
+				text-decoration: none;
+			}
+
+			.wordmark .dot {
+				color: var(--parchment-dim);
+				font-weight: 400;
+			}
+
+			nav {
+				display: flex;
+				gap: 22px;
+				flex: 1;
+				flex-wrap: wrap;
+			}
+
+			nav a {
+				color: var(--parchment-dim);
+				text-decoration: none;
+				font-size: 0.92rem;
+			}
+
+			nav a:hover {
+				color: var(--parchment);
+			}
+
+			.buy {
+				color: var(--ember-bright);
+				text-decoration: none;
+				font-size: 0.92rem;
+				white-space: nowrap;
+				border: 1px solid rgba(217, 100, 47, 0.4);
+				padding: 7px 14px;
+				border-radius: 3px;
+			}
+
+			.buy:hover {
+				background: rgba(217, 100, 47, 0.1);
+			}
+
+			.hero {
+				padding: 88px 28px 56px;
+				max-width: 760px;
+			}
+
+			.kicker {
+				color: var(--ember-bright);
+				font-size: 0.95rem;
+				margin: 0 0 18px;
+			}
+
+			.hero h1 {
+				font-size: 3.1rem;
+				line-height: 1.12;
+				margin: 0 0 26px;
+				color: var(--parchment);
+			}
+
+			.lede {
+				font-size: 1.15rem;
+				color: var(--parchment-dim);
+				max-width: 58ch;
+				margin: 0 0 34px;
+			}
+
+			.lede em {
+				color: var(--parchment);
+				font-style: italic;
+			}
+
+			.hero-links {
+				display: flex;
+				gap: 16px;
+			}
+
+			.cta-primary {
+				background: var(--ember);
+				color: var(--parchment);
+				text-decoration: none;
+				padding: 12px 22px;
+				border-radius: 3px;
+				font-size: 0.98rem;
+			}
+
+			.cta-primary:hover {
+				background: var(--ember-bright);
+			}
+
+			.cta-secondary {
+				color: var(--parchment);
+				text-decoration: none;
+				padding: 12px 22px;
+				border: 1px solid var(--ash-700);
+				border-radius: 3px;
+				font-size: 0.98rem;
+			}
+
+			.cta-secondary:hover {
+				border-color: var(--parchment-dim);
+			}
+
+			.divider hr {
+				border: none;
+				border-top: 1px solid var(--gold-line);
+				margin: 0;
+			}
+
+			.intro-grid {
+				padding: 56px 28px;
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				gap: 44px;
+			}
+
+			.intro-block h2 {
+				font-size: 1.3rem;
+				margin: 0 0 12px;
+				color: var(--parchment);
+			}
+
+			.intro-block p {
+				color: var(--parchment-dim);
+				font-size: 0.98rem;
+				margin: 0 0 16px;
+			}
+
+			.text-link {
+				color: var(--ember-bright);
+				text-decoration: none;
+				font-size: 0.92rem;
+				border-bottom: 1px solid rgba(217, 100, 47, 0.35);
+				padding-bottom: 1px;
+			}
+
+			.text-link:hover {
+				border-color: var(--ember-bright);
+			}
+
+			.book-panel {
+				padding: 60px 28px 90px;
+			}
+
+			.book-copy {
+				max-width: 560px;
+			}
+
+			.book-copy h2 {
+				font-size: 2rem;
+				margin: 10px 0 18px;
+			}
+
+			.book-copy p {
+				color: var(--parchment-dim);
+				font-size: 1.05rem;
+				margin: 0 0 26px;
+			}
+
+			footer {
+				border-top: 1px solid var(--gold-line);
+				padding: 30px 0 40px;
+			}
+
+			.footer-inner {
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				gap: 10px;
+				font-size: 0.9rem;
+				color: var(--parchment-dim);
+			}
+
+			.footer-inner a {
+				color: var(--parchment-dim);
+				text-decoration: none;
+			}
+
+			.footer-inner a:hover {
+				color: var(--parchment);
+			}
+
+			.sep {
+				color: var(--ash-700);
+			}
+
+			.fiction-notice {
+				margin-top: 14px;
+				font-size: 0.85rem;
+				color: var(--ash-700);
+				max-width: 640px;
+			}
+
+			.fiction-notice em {
+				font-style: italic;
+			}
+
+			@media (max-width: 760px) {
+				.header-inner {
+					flex-wrap: wrap;
+				}
+				nav {
+					order: 3;
+					gap: 14px;
+				}
+				.hero h1 {
+					font-size: 2.2rem;
+				}
+				.intro-grid {
+					grid-template-columns: 1fr;
+					gap: 34px;
+				}
+			}
+		</style>
+	</body>
+</html>
