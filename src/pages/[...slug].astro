@@ -1,0 +1,30 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import ContentPage from '../layouts/ContentPage.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages', ({ data }) => data.status === 'published');
+
+  return pages.map((page) => {
+    const slug = page.data.permalink === '/'
+      ? undefined
+      : page.data.permalink.replace(/^\//, '').replace(/\/$/, '');
+
+    return {
+      params: { slug },
+      props: { page },
+    };
+  });
+}
+
+type Props = {
+  page: CollectionEntry<'pages'>;
+};
+
+const { page } = Astro.props;
+const { Content } = await render(page);
+---
+
+<ContentPage page={page}>
+  <Content />
+</ContentPage>

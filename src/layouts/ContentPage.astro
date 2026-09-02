@@ -1,0 +1,100 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import '@fontsource-variable/newsreader';
+import '@fontsource-variable/source-sans-3';
+import '@fontsource-variable/vazirmatn';
+import SeoHead from '../components/SeoHead.astro';
+import { SITE } from '../data/site';
+import { FOOTER_NAV, PRIMARY_NAV } from '../data/navigation';
+import '../styles/global.css';
+
+type Props = {
+  page: CollectionEntry<'pages'>;
+};
+
+const { page } = Astro.props;
+const { data } = page;
+const canonicalUrl = new URL(data.permalink, SITE.url).href;
+---
+
+<!doctype html>
+<html lang={SITE.language}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <SeoHead data={data} canonicalUrl={canonicalUrl} />
+  </head>
+  <body>
+    <a href="#main-content">Skip to content</a>
+
+    <header>
+      <a href="/" aria-label="Ateshism home">Ateshism</a>
+      <nav aria-label="Primary">
+        <ul>
+          {PRIMARY_NAV.map((item) => (
+            <li><a href={item.href}>{item.label}</a></li>
+          ))}
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      {data.permalink !== '/' && (
+        <nav aria-label="Breadcrumb">
+          <ol>
+            {data.breadcrumbs.map((item) => (
+              <li><a href={item.href}>{item.label}</a></li>
+            ))}
+          </ol>
+        </nav>
+      )}
+
+      <article>
+        <header>
+          <p>{data.spoiler === 'S0' ? 'World lore — safe before reading' : `Spoiler level ${data.spoiler}`}</p>
+          <h1>{data.title}</h1>
+          <p>{data.summary}</p>
+        </header>
+
+        {data.hero && (
+          <figure>
+            <img
+              src={data.hero.src}
+              alt={data.hero.alt}
+              width={data.hero.width}
+              height={data.hero.height}
+              loading="eager"
+              fetchpriority="high"
+            />
+            {data.hero.caption && <figcaption>{data.hero.caption}</figcaption>}
+          </figure>
+        )}
+
+        <div class="prose">
+          <slot />
+        </div>
+
+        <aside aria-label="Continue exploring">
+          <p><strong>Discover the world in <em>The Ashen Flame</em>.</strong></p>
+          <p>
+            <a href={data.cta.primaryHref}>{data.cta.primaryLabel}</a>
+            {data.cta.secondaryHref && data.cta.secondaryLabel && (
+              <> · <a href={data.cta.secondaryHref}>{data.cta.secondaryLabel}</a></>
+            )}
+          </p>
+        </aside>
+      </article>
+    </main>
+
+    <footer>
+      <p>{SITE.fictionNotice}</p>
+      <nav aria-label="Footer">
+        <ul>
+          {FOOTER_NAV.map((item) => (
+            <li><a href={item.href}>{item.label}</a></li>
+          ))}
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

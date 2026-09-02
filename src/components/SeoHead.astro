@@ -1,0 +1,47 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { buildStructuredData } from '../lib/schema';
+
+type Props = {
+  data: CollectionEntry<'pages'>['data'];
+  canonicalUrl: string;
+};
+
+const { data, canonicalUrl } = Astro.props;
+const robots = `${data.index ? 'index' : 'noindex'},${data.follow ? 'follow' : 'nofollow'}`;
+const imageUrl = data.hero ? new URL(data.hero.src, canonicalUrl).href : undefined;
+const structuredData = buildStructuredData(data, canonicalUrl);
+const jsonLd = JSON.stringify(structuredData).replace(/</g, '\\u003c');
+const ogType = data.pageType === 'book' ? 'book' : data.schemaType === 'Article' ? 'article' : 'website';
+---
+
+<title>{data.seoTitle}</title>
+<meta name="description" content={data.description} />
+<meta name="robots" content={robots} />
+<link rel="canonical" href={canonicalUrl} />
+<link rel="sitemap" href="/sitemap-index.xml" />
+
+<meta property="og:site_name" content="Ateshism" />
+<meta property="og:type" content={ogType} />
+<meta property="og:title" content={data.seoTitle} />
+<meta property="og:description" content={data.description} />
+<meta property="og:url" content={canonicalUrl} />
+{imageUrl && <meta property="og:image" content={imageUrl} />}
+{data.hero && <meta property="og:image:alt" content={data.hero.alt} />}
+
+<meta name="twitter:card" content={imageUrl ? 'summary_large_image' : 'summary'} />
+<meta name="twitter:title" content={data.seoTitle} />
+<meta name="twitter:description" content={data.description} />
+{imageUrl && <meta name="twitter:image" content={imageUrl} />}
+{data.hero && <meta name="twitter:image:alt" content={data.hero.alt} />}
+
+{data.schemaType === 'Article' && (
+  <>
+    <meta property="article:published_time" content={data.datePublished.toISOString()} />
+    <meta property="article:modified_time" content={data.dateModified.toISOString()} />
+    <meta property="article:author" content={data.author} />
+  </>
+)}
+
+<script type="application/ld+json" set:html={jsonLd} />
+
