@@ -14,4 +14,5 @@ export const FOOTER_NAV = [
   { label: 'Glossary', href: '/glossary/' },
   { label: 'The Ash Archive', href: '/archive/' },
   { label: 'The Ashen Flame', href: '/books/the-ashen-flame/' },
+  { label: 'Privacy Policy', href: '/privacy/' },
 ] as const;

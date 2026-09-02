@@ -25,22 +25,24 @@ const canonicalUrl = new URL(data.permalink, SITE.url).href;
     <SeoHead data={data} canonicalUrl={canonicalUrl} />
   </head>
   <body>
-    <a href="#main-content">Skip to content</a>
+    <a href="#main-content" class="skip-link">Skip to content</a>
 
-    <header>
-      <a href="/" aria-label="Ateshism home">Ateshism</a>
-      <nav aria-label="Primary">
-        <ul>
-          {PRIMARY_NAV.map((item) => (
-            <li><a href={item.href}>{item.label}</a></li>
-          ))}
-        </ul>
-      </nav>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a href="/" class="wordmark" aria-label="Ateshism home">Ateshism</a>
+        <nav aria-label="Primary" class="primary-nav">
+          <ul>
+            {PRIMARY_NAV.map((item) => (
+              <li><a href={item.href}>{item.label}</a></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main id="main-content">
       {data.permalink !== '/' && (
-        <nav aria-label="Breadcrumb">
+        <nav aria-label="Breadcrumb" class="breadcrumb">
           <ol>
             {data.breadcrumbs.map((item) => (
               <li><a href={item.href}>{item.label}</a></li>
@@ -50,10 +52,10 @@ const canonicalUrl = new URL(data.permalink, SITE.url).href;
       )}
 
       <article>
-        <header>
-          <p>{data.spoiler === 'S0' ? 'World lore — safe before reading' : `Spoiler level ${data.spoiler}`}</p>
+        <header class="article-header">
+          <p class="spoiler-label">{data.spoiler === 'S0' ? 'World lore — safe before reading' : `Spoiler level ${data.spoiler}`}</p>
           <h1>{data.title}</h1>
-          <p>{data.summary}</p>
+          <p class="summary">{data.summary}</p>
         </header>
 
         {data.hero && (
@@ -74,7 +76,7 @@ const canonicalUrl = new URL(data.permalink, SITE.url).href;
           <slot />
         </div>
 
-        <aside aria-label="Continue exploring">
+        <aside aria-label="Continue exploring" class="continue-cta">
           <p><strong>Discover the world in <em>The Ashen Flame</em>.</strong></p>
           <p>
             <a href={data.cta.primaryHref}>{data.cta.primaryLabel}</a>
@@ -86,15 +88,72 @@ const canonicalUrl = new URL(data.permalink, SITE.url).href;
       </article>
     </main>
 
-    <footer>
-      <p>{SITE.fictionNotice}</p>
-      <nav aria-label="Footer">
-        <ul>
-          {FOOTER_NAV.map((item) => (
-            <li><a href={item.href}>{item.label}</a></li>
-          ))}
-        </ul>
-      </nav>
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <p class="fiction-notice">{SITE.fictionNotice}</p>
+        <nav aria-label="Footer" class="footer-nav">
+          <ul>
+            {FOOTER_NAV.map((item) => (
+              <li><a href={item.href}>{item.label}</a></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
     </footer>
+
+    <div id="cookie-consent" class="cookie-consent" hidden>
+      <div class="cookie-consent-inner">
+        <p>
+          We use a small number of cookies to understand site traffic (Google Analytics)
+          and search performance (Google Search Console). No data is used for ads.
+          See our <a href="/privacy">privacy policy</a>.
+        </p>
+        <div class="cookie-consent-actions">
+          <button type="button" id="cookie-decline">Decline</button>
+          <button type="button" id="cookie-accept">Accept</button>
+        </div>
+      </div>
+    </div>
+
+    <script is:inline>
+      (function () {
+        var GA_ID = 'G-XXXXXXXXXX'; // TODO: replace with real GA4 Measurement ID
+        var STORAGE_KEY = 'ateshism-cookie-consent';
+
+        function loadGA() {
+          if (window.__gaLoaded || GA_ID === 'G-XXXXXXXXXX') return;
+          window.__gaLoaded = true;
+          var s = document.createElement('script');
+          s.async = true;
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+          document.head.appendChild(s);
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { window.dataLayer.push(arguments); }
+          window.gtag = gtag;
+          gtag('js', new Date());
+          gtag('config', GA_ID, { anonymize_ip: true });
+        }
+
+        var consent = localStorage.getItem(STORAGE_KEY);
+        if (consent === 'accepted') {
+          loadGA();
+        } else if (consent === null) {
+          var banner = document.getElementById('cookie-consent');
+          if (banner) banner.hidden = false;
+        }
+
+        document.addEventListener('click', function (e) {
+          if (e.target && e.target.id === 'cookie-accept') {
+            localStorage.setItem(STORAGE_KEY, 'accepted');
+            document.getElementById('cookie-consent').hidden = true;
+            loadGA();
+          }
+          if (e.target && e.target.id === 'cookie-decline') {
+            localStorage.setItem(STORAGE_KEY, 'declined');
+            document.getElementById('cookie-consent').hidden = true;
+          }
+        });
+      })();
+    </script>
   </body>
 </html>
