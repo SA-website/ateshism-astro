@@ -5,7 +5,7 @@ import '@fontsource-variable/source-sans-3';
 import '@fontsource-variable/vazirmatn';
 import SeoHead from '../components/SeoHead.astro';
 import { SITE } from '../data/site';
-import { FOOTER_NAV, PRIMARY_NAV } from '../data/navigation';
+import { FOOTER_SECTIONS, PRIMARY_NAV } from '../data/navigation';
 import '../styles/global.css';
 
 type Props = {
@@ -90,14 +90,22 @@ const canonicalUrl = new URL(data.permalink, SITE.url).href;
 
     <footer class="site-footer">
       <div class="site-footer-inner">
-        <p class="fiction-notice">{SITE.fictionNotice}</p>
-        <nav aria-label="Footer" class="footer-nav">
-          <ul>
-            {FOOTER_NAV.map((item) => (
-              <li><a href={item.href}>{item.label}</a></li>
-            ))}
-          </ul>
-        </nav>
+        <div class="footer-columns">
+          <div class="footer-brand">
+            <a href="/" class="wordmark">Ateshism<span class="dot">.com</span></a>
+            <p class="fiction-notice">{SITE.fictionNotice}</p>
+          </div>
+          {FOOTER_SECTIONS.map((section) => (
+            <nav aria-label={section.heading} class="footer-nav">
+              <p class="footer-heading">{section.heading}</p>
+              <ul>
+                {section.links.map((item) => (
+                  <li><a href={item.href}>{item.label}</a></li>
+                ))}
+              </ul>
+            </nav>
+          ))}
+        </div>
       </div>
     </footer>
 

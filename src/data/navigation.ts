@@ -1,6 +1,8 @@
 export const PRIMARY_NAV = [
   { label: 'Start Here', href: '/start/' },
   { label: 'Faith', href: '/faith/' },
+  { label: 'Practice', href: '/practice/' },
+  { label: 'Institutions', href: '/institutions/' },
   { label: 'History', href: '/history/' },
   { label: 'Society', href: '/society/' },
   { label: 'World', href: '/world/' },
@@ -9,10 +11,60 @@ export const PRIMARY_NAV = [
   { label: 'Books', href: '/books/' },
 ] as const;
 
-export const FOOTER_NAV = [
-  { label: 'Start Here', href: '/start/' },
-  { label: 'Glossary', href: '/glossary/' },
-  { label: 'The Ash Archive', href: '/archive/' },
-  { label: 'The Ashen Flame', href: '/books/the-ashen-flame/' },
-  { label: 'Privacy Policy', href: '/privacy/' },
+export const FOOTER_SECTIONS = [
+  {
+    heading: 'Faith',
+    links: [
+      { label: 'What Is Ateshism?', href: '/faith/what-is-ateshism/' },
+      { label: 'The Five Pillars', href: '/faith/five-pillars/' },
+      { label: 'The Eternal Flame', href: '/faith/eternal-flame/' },
+      { label: 'Mehr Arahita', href: '/faith/mehr-arahita/' },
+      { label: 'The Book of Fire', href: '/faith/book-of-fire/' },
+      { label: 'The Book of the Hidden Flame', href: '/faith/book-of-hidden-flame/' },
+      { label: 'Consent in Ateshi Theology', href: '/faith/consent/' },
+      { label: 'The Body in Ateshi Theology', href: '/faith/body/' },
+      { label: 'Why Fire?', href: '/faith/fire/' },
+      { label: 'Debates and Scholarship', href: '/faith/debates-scholarship/' },
+    ],
+  },
+  {
+    heading: 'Practice & Institutions',
+    links: [
+      { label: 'Wednesday, the Holy Day', href: '/practice/wednesday/' },
+      { label: 'The Prayer Urn', href: '/practice/prayer-urn/' },
+      { label: 'Visiting an Ateshi Temple', href: '/practice/temple-etiquette/' },
+      { label: 'The Unbound Chest Doctrine', href: '/practice/unbound-chest/' },
+      { label: 'The Ash Order', href: '/institutions/ash-order/' },
+      { label: 'Ash Mothers', href: '/institutions/ash-mothers/' },
+      { label: 'Ranks of the Ash Order', href: '/institutions/ash-ranks/' },
+      { label: 'Rose Mothers', href: '/institutions/rose-mothers/' },
+      { label: 'The Ateshi Temple System', href: '/institutions/temple-system/' },
+    ],
+  },
+  {
+    heading: 'History, Society & World',
+    links: [
+      { label: 'The Ateshi World in 1991', href: '/history/1991/' },
+      { label: 'Timeline of Ateshi History', href: '/history/timeline/' },
+      { label: 'Family Life', href: '/society/family/' },
+      { label: 'Marriage, Household and Partnership', href: '/society/marriage/' },
+      { label: 'Sister-Bonds', href: '/society/sister-bonds/' },
+      { label: 'Map of the Ateshi World', href: '/world/map/' },
+      { label: 'The Compact', href: '/world/compact/' },
+      { label: 'Persia in the Ateshi World', href: '/world/persia/' },
+    ],
+  },
+  {
+    heading: 'People, Books & More',
+    links: [
+      { label: 'Farah Kianzad', href: '/people/farah-kianzad/' },
+      { label: 'Mother Anousheh', href: '/people/anousheh/' },
+      { label: 'The Ashen Flame', href: '/books/the-ashen-flame/' },
+      { label: 'Read an Extract', href: '/books/the-ashen-flame/extract/' },
+      { label: 'The Ash Archive', href: '/archive/' },
+      { label: 'Start Here', href: '/start/' },
+      { label: 'Glossary', href: '/glossary/' },
+      { label: 'Privacy Policy', href: '/privacy/' },
+    ],
+  },
 ] as const;
