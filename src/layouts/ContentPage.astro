@@ -106,8 +106,15 @@ const canonicalUrl = new URL(data.permalink, SITE.url).href;
             </nav>
           ))}
         </div>
+        <div class="footer-bottom">
+          <p>© <span id="copyright-year">2026</span> Alexei Sassani. Ateshism, Din e Atezhan, and the Ateshi world are fictional, created for <em>The Ashen Flame</em>.</p>
+        </div>
       </div>
     </footer>
+    <script is:inline>
+      var yearEl = document.getElementById('copyright-year');
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
+    </script>
 
     <div id="cookie-consent" class="cookie-consent" hidden>
       <div class="cookie-consent-inner">
