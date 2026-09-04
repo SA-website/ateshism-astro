@@ -132,11 +132,11 @@ const canonicalUrl = new URL(data.permalink, SITE.url).href;
 
     <script is:inline>
       (function () {
-        var GA_ID = 'G-XXXXXXXXXX'; // TODO: replace with real GA4 Measurement ID
+        var GA_ID = 'G-Q1KXW6LSEF';
         var STORAGE_KEY = 'ateshism-cookie-consent';
 
         function loadGA() {
-          if (window.__gaLoaded || GA_ID === 'G-XXXXXXXXXX') return;
+          if (window.__gaLoaded) return;
           window.__gaLoaded = true;
           var s = document.createElement('script');
           s.async = true;
