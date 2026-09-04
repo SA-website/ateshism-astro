@@ -6,7 +6,7 @@ summary: "Divine Immanence is the Ateshi belief that the Eternal Flame is presen
 permalink: "/faith/divine-immanence/"
 section: "faith"
 pageType: "article"
-status: "review"
+status: "published"
 phase: "launch"
 spoiler: "S0"
 canonStatus: ["C1", "C3"]
@@ -14,7 +14,7 @@ fictional: true
 author: "Alexei Sassani"
 datePublished: "2026-09-04"
 dateModified: "2026-09-04"
-index: false
+index: true
 follow: true
 primaryKeyword: "Divine Immanence in Ateshism"
 secondaryKeywords:
