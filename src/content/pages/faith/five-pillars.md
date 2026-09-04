@@ -57,7 +57,7 @@ They are not five unrelated rules. Each is supposed to restrain and complete the
 | Pillar | Central claim | Central danger |
 |---|---|---|
 | **[Divine Immanence](/faith/divine-immanence/)** | The Divine is present within existence. | Treating whatever exists or whatever someone feels as divinely approved. |
-| **Sacred Embodiment** | The body can reveal truths about divine presence, creation, care and change. | Turning reverence for bodies into entitlement to interpret, display or use them. |
+| **[Sacred Embodiment](/faith/body/)** | The body can reveal truths about divine presence, creation, care and change. | Turning reverence for bodies into entitlement to interpret, display or use them. |
 | **Presence as Purification** | Disciplined attention exposes self-deception and makes responsible action possible. | Assuming awareness itself makes an action moral. |
 | **Hierarchy of Love** | Love is known through the care, obligation and action it produces. | Ranking relationships until some people or forms of love become socially diminished. |
 | **Consent as Cosmic Principle** | Refusal outranks blessing, status, desire and claimed sacred purpose. | Mistaking paperwork or compliance for freedom from pressure. |
@@ -80,7 +80,7 @@ Immanence does not mean that every event is good. Presence is not approval. If t
 
 That unresolved problem gives the first pillar its tension. It makes escape from the world unnecessary, but it also prevents believers from placing cruelty safely outside the Divine’s reach.
 
-## 2. Sacred Embodiment
+## 2. [Sacred Embodiment](/faith/body/)
 
 **Sacred Embodiment** teaches that the body can manifest truths about the Divine. Bodies create, nourish, desire, labour, grieve, age, change and depend on other bodies. Ateshism treats those conditions as potential religious knowledge rather than obstacles to a purer spiritual life.
 
