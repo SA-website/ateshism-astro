@@ -17,7 +17,7 @@ dateModified: "2026-09-02"
 index: true
 follow: true
 primaryKeyword: "Eternal Flame Ateshism"
-secondaryKeywords: ["Ateshism God", "Ateshi beliefs about God", "does Ateshism worship fire", "divine immanence Ateshism"]
+secondaryKeywords: ["Ateshism God", "Ateshi beliefs about God", "does Ateshism worship fire"]
 searchIntent: "informational"
 schemaType: "Article"
 breadcrumbs:
@@ -74,7 +74,7 @@ The distinction between symbol and object appears throughout Ateshi teaching. An
 
 ## Divine immanence
 
-The first of the [Five Pillars](/faith/five-pillars/) is **Divine Immanence**: the belief that the sacred is present within existence rather than separated from it.
+The first of the [Five Pillars](/faith/five-pillars/) is **Divine Immanence**: the belief that the sacred is present within existence rather than separated from it. For the fuller theological case, its strongest arguments and the objections it must answer, see [Divine Immanence](/faith/divine-immanence/).
 
 This does not mean that every desire is divine approval or that whatever happens must be morally right. Presence is not endorsement. A person can be fully present while doing harm; an institution can speak sacred language while protecting itself. That problem is why immanence must be read alongside the other pillars, especially consent and the hierarchy of love.
 

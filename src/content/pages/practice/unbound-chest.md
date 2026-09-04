@@ -177,7 +177,7 @@ The argument can be stated formally.
 
 ### Premise one: divine presence precedes human classification
 
-[Divine Immanence](/faith/eternal-flame/) holds that the Divine is present within material existence rather than added to it by institutional approval. A body does not become a site of the Flame because a priestess names it correctly.
+[Divine Immanence](/faith/divine-immanence/) holds that the Divine is present within material existence rather than added to it by institutional approval. A body does not become a site of the Flame because a priestess names it correctly.
 
 Therefore, the body’s sacred status precedes the judgement of a crowd.
 

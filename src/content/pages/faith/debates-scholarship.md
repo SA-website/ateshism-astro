@@ -80,7 +80,7 @@ The dispute matters because the book fully systematises Consent as Cosmic Princi
 
 ## If the Divine is everywhere, what is evil?
 
-Divine Immanence leaves no independent realm where cruelty can be placed safely outside sacred reality. Ateshi ethics often describes wrongdoing as absence, numbness, self-deception, domination or corrupted relationship.
+[Divine Immanence](/faith/divine-immanence/) leaves no independent realm where cruelty can be placed safely outside sacred reality. Ateshi ethics often describes wrongdoing as absence, numbness, self-deception, domination or corrupted relationship.
 
 Critics point to clear-eyed harm. A person may understand another’s suffering and continue deliberately. If presence can coexist with cruelty, attention cannot be identical to purification.
 

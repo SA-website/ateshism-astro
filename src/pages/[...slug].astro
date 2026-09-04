@@ -3,7 +3,14 @@ import { getCollection, render, type CollectionEntry } from 'astro:content';
 import ContentPage from '../layouts/ContentPage.astro';
 
 export async function getStaticPaths() {
-  const pages = await getCollection('pages', ({ data }) => data.status === 'published');
+  // Local-preview exception: pages with status "review" render only when
+  // running `astro dev` (import.meta.env.DEV). Production builds (`astro
+  // build`) never include unpublished routes — this only affects local
+  // preview, not what gets deployed.
+  const pages = await getCollection(
+    'pages',
+    ({ data }) => data.status === 'published' || (import.meta.env.DEV && data.status === 'review')
+  );
 
   return pages.map((page) => {
     const slug = page.data.permalink === '/'

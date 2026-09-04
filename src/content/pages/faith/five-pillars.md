@@ -56,7 +56,7 @@ They are not five unrelated rules. Each is supposed to restrain and complete the
 
 | Pillar | Central claim | Central danger |
 |---|---|---|
-| **Divine Immanence** | The Divine is present within existence. | Treating whatever exists or whatever someone feels as divinely approved. |
+| **[Divine Immanence](/faith/divine-immanence/)** | The Divine is present within existence. | Treating whatever exists or whatever someone feels as divinely approved. |
 | **Sacred Embodiment** | The body can reveal truths about divine presence, creation, care and change. | Turning reverence for bodies into entitlement to interpret, display or use them. |
 | **Presence as Purification** | Disciplined attention exposes self-deception and makes responsible action possible. | Assuming awareness itself makes an action moral. |
 | **Hierarchy of Love** | Love is known through the care, obligation and action it produces. | Ranking relationships until some people or forms of love become socially diminished. |
@@ -70,7 +70,7 @@ The *Book of Fire* gives the first four ideas in something close to their later 
 
 The result is a system whose most important safeguard may also have the least secure claim to founder-era authorship.
 
-## 1. Divine Immanence
+## 1. [Divine Immanence](/faith/divine-immanence/)
 
 **Divine Immanence** holds that the sacred is present within the world rather than separated from it. The one Divine—commonly named the [Eternal Flame](/faith/eternal-flame/)—is not a distant person who occasionally intervenes in an otherwise empty creation.
 

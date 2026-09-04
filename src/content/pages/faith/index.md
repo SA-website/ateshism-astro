@@ -57,6 +57,10 @@ A concise introduction to the religion, its founder, sacred texts, worship, prie
 
 Why Ateshis describe the Divine through fire while insisting that sacred fire is not itself God. The article explains immanence, divine names, temple flames and the difference between a symbol and the reality it helps a worshipper notice.
 
+### [Divine Immanence](/faith/divine-immanence/)
+
+Why the Flame is understood as present within existence, and the strongest challenges to that claim.
+
 ### [The Five Pillars](/faith/five-pillars/)
 
 The organised structure of Ateshi theology: Divine Immanence, Sacred Embodiment, Presence as Purification, the Hierarchy of Love and Consent as Cosmic Principle. The names are later than Mehr Arahita, and the fifth pillar carries a disputed textual history.
