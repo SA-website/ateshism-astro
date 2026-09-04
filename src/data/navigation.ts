@@ -9,6 +9,7 @@ export const PRIMARY_NAV = [
   { label: 'People', href: '/people/' },
   { label: 'Archive', href: '/archive/' },
   { label: 'Books', href: '/books/' },
+  { label: 'Blog', href: '/blog/' },
 ] as const;
 
 export const FOOTER_SECTIONS = [
@@ -61,6 +62,9 @@ export const FOOTER_SECTIONS = [
       { label: 'Mother Anousheh', href: '/people/anousheh/' },
       { label: 'The Ashen Flame', href: '/books/the-ashen-flame/' },
       { label: 'Read an Extract', href: '/books/the-ashen-flame/extract/' },
+      { label: 'Blog', href: '/blog/' },
+      { label: 'Best Alternate-History Books', href: '/blog/best-alternate-history-books/' },
+      { label: 'How to Build a Fictional Religion', href: '/blog/how-to-build-fictional-religion/' },
       { label: 'The Ash Archive', href: '/archive/' },
       { label: 'Start Here', href: '/start/' },
       { label: 'Glossary', href: '/glossary/' },
