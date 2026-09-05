@@ -158,7 +158,7 @@ Divine Immanence, Sacred Embodiment, Presence as Purification, the Hierarchy of 
 
 ## H
 
-### Hierarchy of Love
+### [Hierarchy of Love](/faith/hierarchy-of-love/)
 
 The Ateshi pillar that tests love through the care, responsibility and material action it produces rather than through sentiment alone.
 

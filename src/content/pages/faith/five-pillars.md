@@ -59,7 +59,7 @@ They are not five unrelated rules. Each is supposed to restrain and complete the
 | **[Divine Immanence](/faith/divine-immanence/)** | The Divine is present within existence. | Treating whatever exists or whatever someone feels as divinely approved. |
 | **[Sacred Embodiment](/faith/body/)** | The body can reveal truths about divine presence, creation, care and change. | Turning reverence for bodies into entitlement to interpret, display or use them. |
 | **Presence as Purification** | Disciplined attention exposes self-deception and makes responsible action possible. | Assuming awareness itself makes an action moral. |
-| **Hierarchy of Love** | Love is known through the care, obligation and action it produces. | Ranking relationships until some people or forms of love become socially diminished. |
+| **[Hierarchy of Love](/faith/hierarchy-of-love/)** | Love is known through the care, obligation and action it produces. | Ranking relationships until some people or forms of love become socially diminished. |
 | **Consent as Cosmic Principle** | Refusal outranks blessing, status, desire and claimed sacred purpose. | Mistaking paperwork or compliance for freedom from pressure. |
 
 ## Where the Pillars came from
@@ -102,7 +102,7 @@ The word *purification* does not imply that bodies or ordinary material life are
 
 Presence is not infallibility. A person can understand an action and choose it anyway. Clear-eyed wrongdoing is one of the strongest criticisms of the pillar: if awareness does not necessarily produce goodness, presence cannot carry the moral system alone.
 
-## 4. The Hierarchy of Love
+## 4. [The Hierarchy of Love](/faith/hierarchy-of-love/)
 
 The **Hierarchy of Love** asks what different relationships require and how love becomes visible through action. Ateshi teaching distrusts love as sentiment without consequence. Care must feed, protect, listen, repair, tell the truth or accept obligation.
 

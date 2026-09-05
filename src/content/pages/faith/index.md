@@ -91,9 +91,13 @@ The second book appeared roughly three centuries later. Tradition says it preser
 
 ## Bodies, love and refusal
 
-### [The Body in Ateshi Theology](/faith/body/)
+### [Sacred Embodiment](/faith/body/)
 
 Sacred Embodiment treats the body as capable of revealing truths about creation, dependence, pleasure, grief and change. The traditional privilege given to female embodiment supports a female-led priesthood while also producing one of the faith’s most persistent philosophical problems.
+
+### [Hierarchy of Love](/faith/hierarchy-of-love/)
+
+Every person carries equal sacred worth, yet relationships create unequal duties through dependence, promise, entrusted power and vulnerability. The doctrine gives unusually high religious status to relationships between women without ranking human worth itself.
 
 ### [Consent in Ateshi Theology](/faith/consent/)
 

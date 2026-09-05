@@ -34,7 +34,7 @@ mentions:
     type: "Book"
     description: "The fictional second scripture in which Ateshi consent doctrine is fully systematised."
     url: "/faith/book-of-hidden-flame/"
-related: ["/faith/five-pillars/", "/faith/body/", "/society/marriage/", "/institutions/ash-order/"]
+related: ["/faith/five-pillars/", "/faith/body/", "/faith/hierarchy-of-love/", "/society/marriage/", "/institutions/ash-order/"]
 cta:
   primaryLabel: "Discover The Ashen Flame"
   primaryHref: "/books/the-ashen-flame/"

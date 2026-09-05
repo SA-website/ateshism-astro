@@ -64,7 +64,7 @@ Law gives these relationships tools for property, inheritance, guardianship and 
 
 Ateshism treats care as material action. Feeding, cleaning, listening, earning, nursing and keeping records can all show what a declared love produces. This gives ordinary household labour religious importance.
 
-It can also hide who performs that labour. A family may call itself loving while relying on one person to absorb jealousy, smooth arguments or surrender time without acknowledgement. The Hierarchy of Love asks what care actually does; it does not permit sentiment to replace consequences.
+It can also hide who performs that labour. A family may call itself loving while relying on one person to absorb jealousy, smooth arguments or surrender time without acknowledgement. The [Hierarchy of Love](/faith/hierarchy-of-love/) asks what care actually does; it does not permit sentiment to replace consequences.
 
 The household is therefore neither purely private nor simply governed by the Temple. Civil law, Temple mediation and family custom overlap. A Rose Mother may provide counsel, but sacred office does not grant ownership of a family's decisions.
 

@@ -89,7 +89,7 @@ An Ateshi adult's autonomy is not treated as ownership by a spouse. A woman may 
 
 Theological defences emphasise that love need not diminish when it is extended. Emotional life is less tidy. Time, attention, space and money are finite. A husband or existing partner may consent while grieving a change they feel unable to criticise without appearing hostile to women's freedom or sacred love.
 
-Ateshi society can be more articulate about the entering woman's autonomy than about the emotional labour required from everybody else. This is one of the tradition's acknowledged unfinished areas.
+Ateshi society can be more articulate about the entering woman's autonomy than about the emotional labour required from everybody else. This is one of the tradition's acknowledged unfinished areas — one the [Hierarchy of Love](/faith/hierarchy-of-love/) addresses directly: sacred recognition of a relationship does not settle who absorbs its cost.
 
 ## Farah's childhood household
 
