@@ -13,7 +13,7 @@ canonStatus: ["C1"]
 fictional: true
 author: "Alexei Sassani"
 datePublished: "2026-09-02"
-dateModified: "2026-09-02"
+dateModified: "2026-09-07"
 index: true
 follow: true
 primaryKeyword: "The Ashen Flame Alexei Sassani"
@@ -86,8 +86,9 @@ Anousheh's fame is not evidence. It is an accelerant.
 | Genre | Literary fantasy, alternate history and institutional mystery |
 | Spoiler level on this page | Premise and early-book context only |
 | Publication | First edition, 2026 |
+| Kindle edition | [Available on Amazon UK](https://www.amazon.co.uk/dp/B0HKKFR7K9) |
 
-Retailer, ISBN, format and price fields will be added only after they are verified. No Offer or review schema should be generated before that information is visible on this page.
+Print, additional formats and other regional retailer links will be added here as they are verified. No Offer or review schema should be generated before that information is confirmed on this page.
 
 ## A world shaped by Ateshism
 
@@ -138,7 +139,7 @@ Readers who prefer orientation can begin with [Start Here](/start/), [What Is At
 
 ## Publication and purchase
 
-The first edition is dated 2026. Verified retailer links will be placed here when available so visitors can choose their preferred format and region. Until those links are confirmed, this page will not imply stock, price or availability.
+The first edition is dated 2026. *The Ashen Flame* is available now on Kindle: [buy on Amazon UK](https://www.amazon.co.uk/dp/B0HKKFR7K9). Further retailer, print and format links will be added here as they are verified.
 
-[Read an extract from Chapter One](/books/the-ashen-flame/extract/) or [enter the Ateshi world](/start/).
+[Read an extract from Chapter One](/books/the-ashen-flame/extract/), [buy the Kindle edition on Amazon](https://www.amazon.co.uk/dp/B0HKKFR7K9), or [enter the Ateshi world](/start/).
 
