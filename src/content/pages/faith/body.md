@@ -337,7 +337,7 @@ What the existing pillars already prohibit is clearer. No classification can era
 |---|---|---|
 | Divine Immanence | Bodies belong within divine presence rather than outside sacred reality. | No sex, condition or rank can monopolise the Flame. |
 | Sacred Embodiment | Lived bodies reveal dependence, relation, pleasure, injury and change. | Symbol must not replace the person living in the body. |
-| Presence as Purification | Attention tests inherited interpretation against motive, evidence and consequence. | Familiar symbolism cannot decide facts before inquiry begins. |
+| [Presence as Purification](/faith/presence/) | Attention tests inherited interpretation against motive, evidence and consequence. | Familiar symbolism cannot decide facts before inquiry begins. |
 | Hierarchy of Love | Sacred language must become care, protection and responsibility. | Admiration without service is religious consumption. |
 | Consent as Cosmic Principle | The person retains authority over access and participation. | Holiness never makes a body available. |
 

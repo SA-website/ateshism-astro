@@ -82,7 +82,7 @@ For an observant Ateshi, immanence can make ordinary material life religiously s
 
 ## Mehr Arahita’s recognition
 
-[Mehr Arahita](/faith/mehr-arahita/) is remembered as the First Witness, not the creator of the Eternal Flame. Her founding experience—the First Burning—is understood as recognition of something already present.
+[Mehr Arahita](/faith/mehr-arahita/) is remembered as the First Witness, not the creator of the Eternal Flame. Her founding experience—the [First Burning](/faith/first-burning/)—is understood as recognition of something already present.
 
 The traditional story places her beside an ordinary fire during grief after the death of her daughter. The experience did not remove the grief or replace it with an explanation. It allowed her to understand embodied suffering as something that did not need to be hidden before the sacred.
 

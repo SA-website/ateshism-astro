@@ -321,7 +321,7 @@ Forgiveness may be freely offered. Reconciliation requires truth, safety and the
 |---|---|---|
 | [Divine Immanence](/faith/divine-immanence/) | Every person remains within divine presence before anyone chooses to love them. | A ranking of sacred worth or a claim that outsiders are metaphysically empty. |
 | [Sacred Embodiment](/faith/body/) | Love must answer embodied need, limitation, pleasure, injury, labour and dependence. | Admiration that consumes a symbol while neglecting the living person. |
-| Presence as Purification | Attention exposes projection, flattering narratives and hidden cost. | An inherited priority applied without seeing who is actually affected. |
+| [Presence as Purification](/faith/presence/) | Attention exposes projection, flattering narratives and hidden cost. | An inherited priority applied without seeing who is actually affected. |
 | Hierarchy of Love | Attention becomes ordered responsibility and material action. | Spiritual awareness that leaves another person's hunger or injury untouched. |
 | [Consent as Cosmic Principle](/faith/consent/) | Refusal limits access and makes relationship accountable to the other person's will. | Benevolent coercion, possessiveness and sacrifice imposed in love's name. |
 

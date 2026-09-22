@@ -140,7 +140,7 @@ The central Ateshi sign of divine presence, illumination and transformation. A p
 
 The Ash Mother and central character of *The Ashen Flame*. She is twenty-eight when the Anousheh referral reaches her in spring 2010. [Read Farah's dossier.](/people/farah-kianzad/)
 
-### First Burning
+### [First Burning](/faith/first-burning/)
 
 Mehr Arahita's founding experience of recognising divine presence beside a household fire after the death of her infant daughter. It is presented as the first documented recognition, not a unique divine arrival.
 
@@ -198,7 +198,7 @@ Farah's country and a major Ateshi centre. It is a constitutional monarchy with 
 
 A vessel used for burning private written griefs, wishes, shames or names as an act of honest naming and release. [Read about the prayer urn.](/practice/prayer-urn/)
 
-### Presence as Purification
+### [Presence as Purification](/faith/presence/)
 
 The Ateshi pillar holding that sustained attention can expose self-deception and make moral action possible. Attention does not grant permission to intrude.
 

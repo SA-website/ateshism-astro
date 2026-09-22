@@ -265,7 +265,7 @@ The doctrine survives a logical confusion here. It does not emerge with a comple
 |---|---|---|
 | Divine Immanence | No part of existence is outside the sacred merely because authority neglects it. | Treating holiness as a priestly allocation. |
 | Sacred Embodiment | Presence must be considered through particular vulnerable lives. | Loving existence in abstraction while ignoring a person's pain. |
-| Presence as Purification | Interpretation requires attention to motive, evidence and consequence. | Mistaking intensity or familiarity for truth. |
+| [Presence as Purification](/faith/presence/) | Interpretation requires attention to motive, evidence and consequence. | Mistaking intensity or familiarity for truth. |
 | Hierarchy of Love | Reverence must become care and responsibility. | Using inward experience as an excuse for outward indifference. |
 | Consent as Cosmic Principle | Recognition gives no ownership of the person recognised. | Turning shared divinity into access or obedience. |
 

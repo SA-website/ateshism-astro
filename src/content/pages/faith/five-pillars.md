@@ -58,7 +58,7 @@ They are not five unrelated rules. Each is supposed to restrain and complete the
 |---|---|---|
 | **[Divine Immanence](/faith/divine-immanence/)** | The Divine is present within existence. | Treating whatever exists or whatever someone feels as divinely approved. |
 | **[Sacred Embodiment](/faith/body/)** | The body can reveal truths about divine presence, creation, care and change. | Turning reverence for bodies into entitlement to interpret, display or use them. |
-| **Presence as Purification** | Disciplined attention exposes self-deception and makes responsible action possible. | Assuming awareness itself makes an action moral. |
+| **[Presence as Purification](/faith/presence/)** | Disciplined attention exposes self-deception and makes responsible action possible. | Assuming awareness itself makes an action moral. |
 | **[Hierarchy of Love](/faith/hierarchy-of-love/)** | Love is known through the care, obligation and action it produces. | Ranking relationships until some people or forms of love become socially diminished. |
 | **Consent as Cosmic Principle** | Refusal outranks blessing, status, desire and claimed sacred purpose. | Mistaking paperwork or compliance for freedom from pressure. |
 
@@ -92,7 +92,7 @@ Ateshi positions range from exclusive female manifestation to symbolic priority,
 
 The pillar does **not** mean that a body becomes public property. Sacredness without consent would contradict the system’s fifth pillar.
 
-## 3. Presence as Purification
+## 3. [Presence as Purification](/faith/presence/)
 
 **Presence as Purification** is the discipline of attending clearly to experience, motive and consequence. It treats self-deception as a major source of moral failure: people arrange their own actions into comforting stories, then mistake the story for truth.
 

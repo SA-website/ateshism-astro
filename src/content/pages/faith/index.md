@@ -71,9 +71,9 @@ The organised structure of Ateshi theology: Divine Immanence, Sacred Embodiment,
 
 The founding witness of Ateshism is neither a goddess nor an incarnation. Tradition remembers her as the first recorded person to recognise and articulate a divine presence believed to have been there all along.
 
-### The First Burning
+### [The First Burning](/faith/first-burning/)
 
-Arahita’s founding experience is traditionally connected to grief after the death of her daughter. The experience did not erase sorrow or deliver a dictated message. It transformed her understanding of grief: suffering held honestly could remain within sacred presence rather than being hidden as spiritual failure.
+The founding experience itself: Arahita's grief beside a household fire, its theological meaning, and why the tradition treats it as recognisable rather than unrepeatable.
 
 ### Revelation without dictation
 
@@ -94,6 +94,10 @@ The second book appeared roughly three centuries later. Tradition says it preser
 ### [Sacred Embodiment](/faith/body/)
 
 Sacred Embodiment treats the body as capable of revealing truths about creation, dependence, pleasure, grief and change. The traditional privilege given to female embodiment supports a female-led priesthood while also producing one of the faith’s most persistent philosophical problems.
+
+### [Presence as Purification](/faith/presence/)
+
+Disciplined attention to experience, motive and consequence exposes self-deception before it becomes action. The doctrine does not claim that awareness alone makes a person good — a limit its own scholars treat as one of its strongest objections.
 
 ### [Hierarchy of Love](/faith/hierarchy-of-love/)
 

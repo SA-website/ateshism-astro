@@ -69,13 +69,9 @@ The earliest stories emphasise medicine, water, food and the household. Arahita�
 
 ## Grief and the First Burning
 
-Ateshi tradition connects the **First Burning** to grief after the death of Arahita’s daughter. Children are often told a gentle version: she sat beside a fire and felt her sadness answered by warmth.
+Ateshi tradition connects the **[First Burning](/faith/first-burning/)** to grief after the death of Arahita's daughter: sitting beside a household fire, she came to recognise a divine presence that formal theology insists was already there, not newly arrived. The fire did not speak, explain the death or remove her grief — the change was in how she held the grief itself, as something that did not have to be hidden or escaped before remaining close to the sacred.
 
-Formal theology is more careful. The fire did not speak in sentences, explain the death or remove her grief. Arahita experienced the grief itself differently—as embodied suffering that did not have to be hidden, corrected or escaped before she could remain within sacred presence.
-
-The lesson commonly drawn from the story is not that grief is good. It is that grief held honestly can be a kind of prayer: suffering does not become shameful simply because it cannot be fixed.
-
-The First Burning is a recognition, not the first arrival of the Divine. In Ateshi belief, the [Eternal Flame](/faith/eternal-flame/) was already present.
+[Read the full account, its theological meaning and the strongest objections to it →](/faith/first-burning/)
 
 ## Why she is called the First Witness
 

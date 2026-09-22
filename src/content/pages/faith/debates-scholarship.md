@@ -50,7 +50,7 @@ The existence of an argument does not mean every position carries equal evidence
 
 ## Why debate matters
 
-Ateshism claims that disciplined attention can expose self-deception. A tradition making that claim cannot credibly protect itself from scrutiny without contradicting its own theology.
+Ateshism claims that disciplined attention can expose self-deception. A tradition making that claim cannot credibly protect itself from scrutiny without contradicting its own theology. [Presence as Purification](/faith/presence/) sets out the doctrine's strongest formal case and its own admitted limits in full.
 
 Rose theologians, Ash investigators, historians, reformers and secular critics therefore share an argumentative culture even when they disagree about who has standing inside it. Some questions remain compulsory precisely because authoritative institutions have failed to make them disappear.
 
@@ -58,7 +58,7 @@ The most serious scholarship does not ask whether Ateshism is wholly good or who
 
 ## Is religious experience reliable?
 
-Ateshism presents Mehr Arahita’s First Burning as the first recorded recognition of a sacred presence available to everyone. Believers are not asked only to trust an ancient report; they are encouraged to cultivate their own direct encounter through presence and sacred witnessing.
+Ateshism presents Mehr Arahita's [First Burning](/faith/first-burning/) as the first recorded recognition of a sacred presence available to everyone. Believers are not asked only to trust an ancient report; they are encouraged to cultivate their own direct encounter through presence and sacred witnessing.
 
 Defenders call this repeatable spiritual knowledge. The tradition offers a practice and asks a person to test it.
 

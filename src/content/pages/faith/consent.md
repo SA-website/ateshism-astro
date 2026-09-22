@@ -60,10 +60,10 @@ The doctrine applies beyond intimate relationships. It concerns marriage, medici
 
 The first four pillars make powerful claims:
 
-- The Divine is present within existence.
-- Bodies can manifest sacred truth.
-- attention can expose self-deception;
-- love creates obligation and moral action.
+- [Divine Immanence](/faith/divine-immanence/): the Divine is present within existence.
+- [Sacred Embodiment](/faith/body/): bodies can manifest sacred truth.
+- [Presence as Purification](/faith/presence/): attention can expose self-deception.
+- [Hierarchy of Love](/faith/hierarchy-of-love/): love creates obligation and moral action.
 
 Without consent, each can be misused.
 

@@ -103,7 +103,7 @@ Training includes:
 | Physical resilience | Work safely through travel, confrontation and demanding cases |
 | Adversarial reasoning | Construct the strongest case against one's own conclusion |
 
-Examinations punish unwarranted certainty. Trainees must label **fact, testimony, inference, assumption and unknown** rather than blending them into a persuasive story. A correct conclusion reached through undisciplined reasoning is not treated as sufficient.
+Examinations punish unwarranted certainty. Trainees must label **fact, testimony, inference, assumption and unknown** rather than blending them into a persuasive story. A correct conclusion reached through undisciplined reasoning is not treated as sufficient. This is [Presence as Purification](/faith/presence/) applied as method: attention disciplined enough to notice what an investigator hopes is true before it is mistaken for what she knows.
 
 ## Funding and independence
 
