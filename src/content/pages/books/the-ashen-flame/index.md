@@ -63,6 +63,14 @@ cta:
 
 It is the first novel set in the fictional Ateshi world.
 
+<div class="buy-cta">
+  <div class="buy-cta-text">
+    <strong>Available now on Kindle</strong>
+    <span>The first edition of The Ashen Flame is out now.</span>
+  </div>
+  <a class="buy-cta-button" href="https://www.amazon.co.uk/dp/B0HKKFR7K9">Buy on Amazon UK</a>
+</div>
+
 ## The story
 
 Farah Kianzad has spent her life listening for the difference between a true sentence and one somebody needs to be true.
