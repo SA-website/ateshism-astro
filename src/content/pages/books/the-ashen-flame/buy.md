@@ -38,6 +38,11 @@ related:
   - "/books/the-ashen-flame/"
   - "/books/the-ashen-flame/extract/"
   - "/start/"
+hero:
+  src: "/images/covers/the-ashen-flame-cover.png"
+  alt: "Book cover for The Ashen Flame by Alexei Sassani, showing the Ateshism flame mark in ember red and brass on a dark background"
+  width: 1200
+  height: 1800
 cta:
   primaryLabel: "Read the full story"
   primaryHref: "/books/the-ashen-flame/"

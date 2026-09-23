@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" role="img" aria-labelledby="cover-title cover-desc">
+  <title id="cover-title">The Ashen Flame, by Alexei Sassani — book cover</title>
+  <desc id="cover-desc">A designed typographic cover: a dark background, the Ateshism flame mark in ember red and brass, the title THE ASHEN FLAME, and the author name Alexei Sassani, framed by a thin brass border.</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="27%" r="32%">
+      <stop offset="0%" stop-color="#9E3F2D" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#9E3F2D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="1200" fill="#181512"/>
+  <rect x="0" y="0" width="800" height="1200" fill="url(#glow)"/>
+
+  <rect x="40" y="40" width="720" height="1120" fill="none" stroke="#9A7135" stroke-width="2"/>
+  <rect x="56" y="56" width="688" height="1088" fill="none" stroke="#D6A35B" stroke-width="1" opacity="0.5"/>
+
+  <g transform="translate(240,140) scale(2.5)">
+    <path fill="#9E3F2D" fill-rule="evenodd" d="M64 6C51 25 27 49 27 78c0 23 16 40 37 40s37-17 37-40C101 51 82 29 64 6Zm0 31c-9 12-18 25-18 39 0 14 8 24 18 24s18-10 18-24c0-14-9-27-18-39Z"/>
+    <circle cx="64" cy="108" r="4" fill="#D6A35B"/>
+  </g>
+
+  <text x="400" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" letter-spacing="8" fill="#D6A35B">A NOVEL</text>
+
+  <line x1="370" y1="556" x2="430" y2="556" stroke="#9A7135" stroke-width="1.5"/>
+
+  <text x="400" y="650" text-anchor="middle" font-family="Georgia, 'Iowan Old Style', serif" font-size="76" font-weight="700" letter-spacing="4" fill="#F7F1E7">THE ASHEN</text>
+  <text x="400" y="742" text-anchor="middle" font-family="Georgia, 'Iowan Old Style', serif" font-size="76" font-weight="700" letter-spacing="4" fill="#F7F1E7">FLAME</text>
+
+  <line x1="300" y1="792" x2="500" y2="792" stroke="#9A7135" stroke-width="1.5"/>
+
+  <text x="400" y="1075" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" letter-spacing="7" fill="#F7F1E7">ALEXEI SASSANI</text>
+
+  <line x1="370" y1="1105" x2="430" y2="1105" stroke="#9A7135" stroke-width="1.5"/>
+</svg>
