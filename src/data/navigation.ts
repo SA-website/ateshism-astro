@@ -9,6 +9,7 @@ export const PRIMARY_NAV = [
   { label: 'People', href: '/people/' },
   { label: 'Archive', href: '/archive/' },
   { label: 'Books', href: '/books/' },
+  { label: 'Buy', href: '/books/the-ashen-flame/buy/' },
   { label: 'Blog', href: '/blog/' },
 ] as const;
 
